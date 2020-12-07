@@ -33,6 +33,6 @@ jobs:
           AWS_S3_SECRET_ACCESS_KEY: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
         run: |
           aws s3 cp \
-            --recuresive \
+            --recursive \
             --region ap-northeast-2 \
             build s3://tabe-reduce-front
