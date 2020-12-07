@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.2rem;
+
+  width: calc(100% - 32px);
+  height: calc(100vh - 32px);
+
+  padding: 16px;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
